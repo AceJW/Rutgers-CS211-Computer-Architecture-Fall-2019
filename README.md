@@ -1,9 +1,9 @@
 # CS211-Rutgers FALL 2019
 
-PA1 97.5
-PA2 100 
-PA3 100
-PA4 90
+PA1: 97.5
+PA2: 100 
+PA3: 100
+PA4: 90
 
 Professor Jeffery Ames
 
