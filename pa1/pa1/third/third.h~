@@ -1,0 +1,22 @@
+#ifndef _THIRD_H_
+#define _THIRD_H_
+
+typedef struct hashTable{
+  int size;
+  struct Node** row;
+}hashTable;
+
+#define BK_Size 10000
+typedef struct Node{
+  int data;
+  struct Node* next;
+}Node;
+
+int posCheck(int value);
+int posCheck(int value);
+void insert(int k, Node* bucks[]);
+void search(int k, Node* bucks[]);
+int valueblack(hashTable* table, int num);
+void clefBks(int numOfIc, Node* tNode[]);
+void connecInsert(Node* bucks[],Node* hNode,int v,int k);
+#endif
